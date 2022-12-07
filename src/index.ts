@@ -9,6 +9,7 @@ const app = new App({
   signingSecret: process.env.SLACKBOT_SIGNING_SECRET , // Find in Basic Information Tab
   socketMode: true,
   appToken: process.env.SLACKBOT_APP_TOKEN, // Token from the App-level Token that we created
+  port: parseInt(process.env.PORT) || 3000,
 });
 
 const STATES = {
