@@ -25,6 +25,7 @@
     "@slack/bolt": "^3.12.2",
     "dotenv": "^16.0.3",
     "eventsource-parser": "^0.0.5",
+    "node-fetch": "^3.3.0",
     "uuid": "^9.0.0"
   }
 }
